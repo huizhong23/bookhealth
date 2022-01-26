@@ -1,0 +1,124 @@
+input[type=text], input[type=tel], input[type=email], input[type=date], input[type=time], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 1px 0 15px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+}
+
+label {
+    padding: 8px 1px 10px 0;
+    display: inline-block;
+}
+
+.savebtn {
+    background-color: #3b6bb4;
+    color: white;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 133px 10px 20px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+}
+
+.editbtn {
+    background-color: #3b6bb4;
+    color: white;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 5px 10px 20px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+}
+
+.cancelbtn {
+    background-color: #3b6bb4;
+    color: white;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 5px 10px 20px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+}
+
+.savebtn:hover, .editbtn:hover, .cancelbtn:hover {
+    opacity: 3;
+}
+
+.col-A {
+    font-weight: bold;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-B {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+.col-Bb {
+    float: left;
+    width: 62.2%;
+    margin-top: 6px;
+}
+
+.col-C {
+    font-weight: bold;
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-D {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-E {
+    font-weight: bold;
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-F {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-Ff {
+    float: left;
+    width: 27.2%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

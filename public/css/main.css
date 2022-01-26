@@ -1,0 +1,92 @@
+body {
+    font-family: system-ui;
+    background-image: url(home.png);
+    background-size: 1550px, 2000px;
+    padding: 50px 140px 30px 800px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 7px 20px 7px 20px;
+    margin-top: 1px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 8px;
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .psw {
+    float: right;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #3b6bb4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 120px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+
+  .loginbtn {
+    background-color: #3b6bb4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 120px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+  }
+  
+  .loginbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: rgb(0, 7, 107);
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }

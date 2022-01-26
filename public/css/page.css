@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    font-family: system-ui;
+    background-color: #bfd7ff;
+    
+}
+
+.topnav {
+    height: 80px;
+    width: 1550px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    background-size: auto;
+    position: fixed;
+
+}
+
+.topnav a {
+    text-align: center;
+    float: right;
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding: 15px 10px 15px 10px;
+    margin: 15px 80px 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: #3b6bb4;
+}
+
+.imglogo {
+    padding: 20px 20px 10px 30px;
+    width: 230px;
+    height: 40px;
+}
+
+.button{
+    background-color: #3b6bb4;
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.9;
+    align-items: center;
+    box-shadow: 0 0 6px 1px  #06325c;
+    
+}
+
+.button:hover {
+    opacity: 5;
+}
+
+.sidenav {
+    font-weight: bold;
+    height: 50%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 20px 20px 1000px 20px;
+    margin: 80px 40px 20px 0px;
+    background-color: #3b6bb4;
+    overflow-x: hidden;
+    border-right-style: 10px solid #b6b6b6;
+}
+
+.sidenav a {
+    padding: 5px 30px 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #a3a3a3;
+}
+
+.buttonside{
+    color: white;
+    border: 1px solid #525252;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+    align-items: center;
+}
+
+.buttonside:hover {
+    opacity: 1;
+}
+
+.content {
+    padding-left: 350px;
+}
+
+.contenthome {
+    padding-left: 300px;
+}
+
+.admin {
+    padding-left: 70px;
+    
+}

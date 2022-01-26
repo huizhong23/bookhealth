@@ -1,0 +1,27 @@
+table{
+    font-family: system-ui;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+  
+tr:hover {background-color: #ddd;}
+  
+th {
+    padding: 12px 10px 12px 10px;
+    text-align: center;
+    background-color: #3b6bb4;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
